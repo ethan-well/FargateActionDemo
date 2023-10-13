@@ -1,9 +1,11 @@
 {
+  "family": "sample-gops",
+  "executionRoleArn": "arn:aws:iam::906264943118:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
   "containerDefinitions": [
     {
       "name": "gops-app",
-      "image": "906264943118.dkr.ecr.us-east-2.amazonaws.com/my-ecr-repo:83b2273af371cd43cafa3e778df28ac8e717c898",
-      "cpu": 0,
+      "image": null,
       "portMappings": [
         {
           "containerPort": 8080,
@@ -16,14 +18,10 @@
         "sh",
         "-c"
       ],
-      "environment": [],
-      "mountPoints": [],
-      "volumesFrom": []
+      "command": [
+      ]
     }
   ],
-  "family": "sample-gops",
-  "executionRoleArn": "arn:aws:iam::906264943118:role/ecsTaskExecutionRole",
-  "networkMode": "awsvpc",
   "requiresCompatibilities": [
     "FARGATE"
   ],
