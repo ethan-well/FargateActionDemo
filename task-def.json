@@ -2,7 +2,7 @@
   "containerDefinitions": [
     {
       "name": "gops-app",
-      "image": "906264943118.dkr.ecr.us-east-2.amazonaws.com/my-ecr-repo:83b2273af371cd43cafa3e778df28ac8e717c898",
+      "image": "906264943118.dkr.ecr.us-east-2.amazonaws.com/my-ecr-repo:d349fb7591f313c5e8f845be1f26eec64462cfac",
       "cpu": 0,
       "portMappings": [
         {
